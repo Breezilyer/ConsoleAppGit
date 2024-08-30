@@ -6,7 +6,27 @@ namespace ConsoleAppGit
     {
         static void Main(string[] args)
         {
-            Emil.print("I'm awesome and hot and sexy and cool! yeah");
+            Emil.printLine("For loops: 1 /");
+            Emil.print("Pick: ");
+            int x = Convert.ToInt32(Console.ReadLine()!);
+
+            switch(x)
+            {
+                default:
+                    break;
+
+                case 1:
+                    forLoops();
+                    break;
+            }
+        }
+
+        static void forLoops()
+        {   
+            for(int i = 1; i <= 10; i++)
+            {
+                Emil.print($"{i} ");
+            }
         }
     }
 }
