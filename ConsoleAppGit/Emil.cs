@@ -8,6 +8,9 @@ namespace ConsoleAppGit
 {
     internal class Emil
     {
-
+        public static void print(string text)
+        {
+            Console.WriteLine(text);
+        }
     }
 }

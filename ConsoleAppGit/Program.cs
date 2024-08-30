@@ -1,10 +1,12 @@
-﻿namespace ConsoleAppGit
+﻿using System.Runtime.InteropServices;
+
+namespace ConsoleAppGit
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Emil.print("I'm awesome and hot and sexy and cool!");
         }
     }
 }
