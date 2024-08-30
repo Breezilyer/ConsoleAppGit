@@ -6,7 +6,7 @@ namespace ConsoleAppGit
     {
         static void Main(string[] args)
         {
-            Emil.print("I'm awesome and hot and sexy and cool!");
+            Emil.print("I'm awesome and hot and sexy and cool! yeah");
         }
     }
 }
